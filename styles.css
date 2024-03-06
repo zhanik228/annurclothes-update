@@ -94,7 +94,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .header {
-        position: fixed;
+        position: absolute;
         left: 0;
         width: 100%;
     }
@@ -995,9 +995,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .primary-ad-card {
+    /* .primary-ad-card {
         flex-direction: column;
-    }
+    } */
 }
 /* .primary-ad-card__price {
 }
@@ -1377,7 +1377,7 @@ body {
 .about-card__img {
     width: 100%;
     border-radius: 8px;
-    filter: brightness(70%);
+    /* filter: brightness(40%); */
     background-color: var(--clr-neutral-500);
 }
 .about-card__content {
